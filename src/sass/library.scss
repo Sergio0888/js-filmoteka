@@ -1,0 +1,15 @@
+@import './utils/variables';
+
+@import './base/common';
+@import './base/container';
+
+@import './components/button';
+
+@import './layout/gallery';
+@import './layout/home-header.scss';
+@import './layout/library-header'; // not needed, delete it? all styles are in home-header.scss
+@import './layout/gallery';
+@import './layout/footer';
+@import './layout/modal-window';
+@import './components/loader';
+@import './components/pagination'
