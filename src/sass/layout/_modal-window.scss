@@ -178,9 +178,11 @@
 .backdrop.is-open {
   visibility: visible;
   opacity: 1;
+  z-index: 1221;
 }
 
 .modal-box.is-open {
   visibility: visible;
   opacity: 1;
+  z-index: 1001;
 }

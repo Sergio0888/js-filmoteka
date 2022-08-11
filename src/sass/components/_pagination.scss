@@ -32,10 +32,13 @@
     font-weight: normal;
     text-decoration: none;
     vertical-align: middle;
+
+    transition: 0.25s;
 }
 
 .tui-pagination .tui-page-btn:hover {
     background-color: $library-orange-color;
+    color: #fff;
     border-radius: 5px;
     width: 40px;
     height: 40px;
@@ -71,7 +74,6 @@
     width: 40px;
     padding: 15px;
     font-size: 0;
-    background-color: $main-white-colir;
     border-radius: 5px;
 }
 
@@ -130,8 +132,8 @@
 }
 
 .tui-pagination .tui-is-disabled:hover {
-    background: #fff;
     cursor: default;
+    background-color: inherit;
 }
 
 .tui-pagination .tui-is-disabled .tui-ico-prev {

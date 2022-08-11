@@ -1,6 +1,7 @@
 .film {
   &__section {
     padding: 60px 0;
+    background: linear-gradient(.25turn, #96cae1, #ebf8e1, #e6c8a8);
   }
   &__section-lib {
     padding: 60px 0;
@@ -11,10 +12,19 @@
   }
 
   &__list {
+    margin-bottom: 40px;
   }
 
   &__item {
+    padding: 20px;
     margin-bottom: 20px;
+    transition: 0.4s;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 0px 5px 10px 8px #7a5c61;
+    }
   }
 
   &__img {
